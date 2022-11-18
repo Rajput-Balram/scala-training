@@ -28,12 +28,34 @@ object Main {
     res
   }
 
+  /*
+  Palindrome check function
+  * */
+  def PalindromeCheck(no: Int): Boolean = {
+
+    var isPalindrom: Boolean = true
+    if (no < 10 && no > -1) {
+      isPalindrom = true
+
+    } else {
+      val inp: String = no.toString
+      val len = inp.length
+
+      for (i <- 0 until len / 2) {
+        if (inp.charAt(i) != inp.charAt((len - i) - 1)) {
+          isPalindrom = false
+        }
+      }
+    }
+    isPalindrom
+  }
+
 
   def main(args: Array[String]): Unit = {
 
     println(isEvenOrOdd(12))
-    println(isEvenOrOdd(1))
-    println(isEvenOrOdd(0))
+
     println(fact(5))
+    println(PalindromeCheck(11))
   }
 }
