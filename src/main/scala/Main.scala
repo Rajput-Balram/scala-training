@@ -36,7 +36,6 @@ object Main {
     var isPalindrom: Boolean = true
     if (no < 10 && no > -1) {
       isPalindrom = true
-
     } else {
       val inp: String = no.toString
       val len = inp.length
@@ -50,6 +49,21 @@ object Main {
     isPalindrom
   }
 
+  /*
+  * Prime No check
+  * */
+  def primeCheck(no: Int): Boolean = {
+    //    var isPrime = false
+    if (no <= 1) return false
+    if (no == 2 || no == 3) return true
+    if (no % 2 == 0 || no % 3 == 0) return false
+
+    for (i <- 5 to Math.sqrt(no).toInt) {
+      if (no % i == 0) return false
+    }
+    true
+  }
+
 
   def main(args: Array[String]): Unit = {
 
@@ -57,5 +71,7 @@ object Main {
 
     println(fact(5))
     println(PalindromeCheck(11))
+
+    println(s"prime test ${primeCheck(4)}")
   }
 }
