@@ -2,7 +2,7 @@ package com.techsophy
 
 object factorial extends App {
 
-  def fact(no: Int): Long = {
+  def fact(no: Int): BigInt = {
     if (no <= 1) 1 else no * fact(no - 1)
   }
 
@@ -13,8 +13,10 @@ object factorial extends App {
     fibItr(0, 0, 1)
   }
 
-  println(fact(2))
-  println(fact(5))
+//  def factRec
 
-  println(fibSeri(1))
+  println(fact(1000))
+//  println(fact(5))
+
+//  println(fibSeri(1))
 }
