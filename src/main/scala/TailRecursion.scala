@@ -8,11 +8,11 @@ object TailRecursion extends App {
 
   def FibTail(no: Int): Int = {
     def Inner(i: Int, a: Int, b: Int): Int = {
-      println(s"i:$i, a:$a, b:$b")
+      print(s"$a ")
       if (i == no) a else Inner(i + 1, b, a + b)
     }
 
-    Inner(0, 0, 1)
+    Inner(1, 0, 1)
   }
 
 
@@ -24,6 +24,7 @@ object TailRecursion extends App {
     Inner(no, 1)
   }
 
-  println(FibTail(1))
-  println(FactTail(5))
+//    println(FibTail(1))
+  FibTail(5)
+  //  println(FactTail(5))
 }
