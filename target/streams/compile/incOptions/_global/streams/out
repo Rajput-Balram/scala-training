@@ -1,14 +1,14 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/balram/AppleScalaTraining/scala-training/target/scala-2.13/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$delayedInit$body.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	factorial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TailRecursion$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/balram/AppleScalaTraining/scala-training/target/scala-2.13/classes.bak[0m
