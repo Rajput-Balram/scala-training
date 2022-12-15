@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fa9501-50a4-46da-bbac-57253671d794" name="Changes" comment="prime check fun added">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Scala99.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/TailRecursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/TailRecursion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log1087678692382945756.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log6610912285795742703.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -66,9 +69,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TailRecursion">
+  <component name="RunManager" selected="Application.Scala99">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.techsophy.Main" />
+      <module name="scala-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techsophy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala99" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.techsophy.Scala99" />
       <module name="scala-training" />
       <extension name="coverage">
         <pattern>
@@ -121,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scala99" />
         <item itemvalue="Application.TailRecursion" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.Test" />
