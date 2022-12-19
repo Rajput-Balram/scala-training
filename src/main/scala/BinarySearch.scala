@@ -15,7 +15,20 @@ object BinarySearch extends App {
     inner(0, list.length - 1)
   }
 
+  def BinSearch_v2(list: List[Int], key: Int): Boolean = {
+    def inner(list: List[Int]): Boolean = {
+      var mid = list.length / 2
+      if (list(mid) == key) true
+      else if (list(mid) < key) inner(list.slice(mid + 1, list.length))
+      else if (list(mid) > key) inner(list.slice(0, mid - 1))
+      else throw new NoSuchElementException
+    }
+
+    inner(list)
+  }
+
 
   println(BinSearch(List(1, 2, 3, 4, 5), 5))
+  println(BinSearch_v2(List(1, 2, 3, 4, 5), 5))
 
 }
