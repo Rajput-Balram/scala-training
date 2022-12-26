@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28fa9501-50a4-46da-bbac-57253671d794" name="Changes" comment="prime check fun added">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/LongestSeq.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/BirwiseAdd.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LinkedList/FindLoopLinkedList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/LinkedList/LinkedList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Stack/Stack.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb56703fb97f62a042be$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb56703fb97f62a042be.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb56703fb97f62a042be.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/BinarySearch.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/BinarySearch.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log207894514172009441.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log5722224138559252554.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log3400352414690612764.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/global-logging/sbt-global-log7084395850414381336.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/BinarySearch$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/BinarySearch$delayedInit$body.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/BinarySearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/FindLast$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/FindLast$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/FindLast.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/TailRecursion$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/TailRecursion$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/TailRecursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/factorial$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/factorial$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/techsophy/factorial.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/discoveredMainClasses/data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
     </list>
@@ -65,6 +59,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +87,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.Stack">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.techsophy.BinarySearch" />
       <module name="scala-training" />
@@ -106,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala99" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.techsophy.Scala99" />
+    <configuration name="BirwiseAdd" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.techsophy.BirwiseAdd" />
       <module name="scala-training" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.techsophy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.techsophy.LinkedList.LinkedList" />
+      <module name="scala-training" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techsophy.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,25 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TailRecursion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.techsophy.TailRecursion" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.techsophy.Stack.Stack" />
       <module name="scala-training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.techsophy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="factorial" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.techsophy.factorial" />
-      <module name="scala-training" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techsophy.*" />
+          <option name="PATTERN" value="com.techsophy.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.BirwiseAdd" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Scala99Sol1" />
-        <item itemvalue="Application.Scala99" />
-        <item itemvalue="Application.TailRecursion" />
-        <item itemvalue="Application.factorial" />
       </list>
     </recent_temporary>
   </component>
